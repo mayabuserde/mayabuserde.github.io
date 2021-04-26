@@ -45,10 +45,11 @@
     <main class="container">
         <section id="about" class="row justify-content-center text-center">
             <div class="col-8 mt-5">
-                <img src="/resources/img/mayabuserdeSquare.png" width="200px" alt="Maya Buser De" class="rounded-circle">
+                <img src="/resources/img/mayabuserdeSquare.png" width="200px" alt="Maya Buser De"
+                    class="rounded-circle">
                 <!-- About Me -->
-                <h1>Maya Buser De</h1>
-                <H2>Web Developer</H2>
+                <h1 class="text-info">Maya Buser De</h1>
+                <H2 class="text-muted">Web Developer</H2>
                 <p>I am making a career transition into web development, building on 8 years experience in sociological
                     research and international student recruitment. I have excellent communication and
                     relationship-building skills, in addition to qualitative research and data analysis experience. My
@@ -57,10 +58,10 @@
         </section>
         <!-- Experience  -->
         <section id="experience" class="row">
-            <h2 class="my-5"><i class="fas fa-briefcase"></i> Experience</h2>
+            <h2 class="my-5 text-info"><i class="fas fa-briefcase"></i> Experience</h2>
             <div class="col-8">
-                <h3>Web Developer Training – Front End Development</h3>
-                <h4 class="location">Atlanta, Georgia</h4>
+                <h3 class="text-dark">Web Developer Training – Front End Development</h3>
+                <h4 class="text-muted">Atlanta, Georgia</h4>
                 <p> In summer 2020 I started teaching myself web development including HTML, CSS, JavaScript, Bootstrap
                     and the principles of efficient and responsive web development.</p>
                 <ul>
@@ -73,11 +74,11 @@
                         an international team. Individual contributions: API calls and JavaScript navigation bar, app
                         structure, and information architecture. </li>
             </div>
-            <div class="col-4"><span class="year float-right">August 2020 - Present</span></div>
+            <div class="col-4 text-end"><span class="text-dark">August 2020 - Present</span></div>
         </section>
         <!-- Skills -->
         <section id="skills" class="row">
-            <h2 class="my-5"><i class="fas fa-user"></i> Skills</h2>
+            <h2 class="my-5 text-info"><i class="fas fa-user"></i> Skills</h2>
             <ul class="col-6">
                 <li>Programming languages – HTML, CSS, JavaScript, Bootstrap</li>
                 <li>Version Control System – Git, GitHub, commits, branching, merging, pull requests </li>
@@ -91,59 +92,66 @@
             </ul>
         </section>
         <!-- Projects and Project pages -->
-        <section id="projects" class="row">
-            <h2 class="my-5">Projects</h2>
-            <div class="card m-3">
-                <div class="card-body">
-                    <h5 class="card-title">Bea Cancer Translator</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Girls in Tech Hackathon</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link">Project link</a>
-                    <a href="#" class="card-link">GitHub link</a>
+        <section id="projects" class="row gx-3">
+            <h2 class="my-5 text-info"><i class="fas fa-folder-open"></i>Projects</h2>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bea Cancer Translator</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Girls in Tech Hackathon</h6>
+                        <p class="card-text">Bea is a mobile app for non-English-speaking breast cancer patients to better understand their diagnosis. It offers document translation, a glossary and FAQ in Spanish, French and Hindi.</p>
+                        <p>Individual contributions: idea generation, team leadership, project management, and translations.</p>
+                        <a href="#" class="card-link">Project link</a>
+                        <a href="#" class="card-link">GitHub link</a>
+                    </div>
                 </div>
             </div>
-            <div class="card m-3">
-                <div class="card-body">
-                    <h5 class="card-title">Mood Booster</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Mental Health Hackathon</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link">Project link</a>
-                    <a href="#" class="card-link">GitHub link</a>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mood Booster</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Mental Health Hackathon</h6>
+                        <p class="card-text">Mood Booster is a web application built to improve mental health during the covid-19 pandemic through a journaling feature and boosts like cute pictures, quotes, music and jokes.</p>
+                            <p>Individual contributions: API calls and JavaScript navigation bar, app structure, and information architecture.</p>
+                        <a href="#" class="card-link">Project link</a>
+                        <a href="#" class="card-link">GitHub link</a>
+                    </div>
                 </div>
             </div>
-            <div class="card m-3">
-                <div class="card-body">
-                    <h5 class="card-title">Caloric Density Calculator</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Individual Project</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link">Project link</a>
-                    <a href="#" class="card-link">GitHub link</a>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Caloric Density Calculator</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Individual Project</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="card-link">Project link</a>
+                        <a href="#" class="card-link">GitHub link</a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Digital Presence  -->
 
-        <section id="contact" class="row justify-content-center">
-            <h2 class="my-5">Contact</h2>
+        <section id="contact" class="row justify-content-center mb-3">
+            <h2 class="my-5 text-info"><i class="fas fa-file-signature"></i>Contact</h2>
             <div class="card text-center col-3 border-0" style="width: 12rem;">
                 <div class="card-body">
-                    <h5 class="card-title display-1"><a href="mailto:maya.buser@gmail.com"><i
+                    <h5 class="card-title display-1"><a class="text-muted" href="mailto:maya.buser@gmail.com"><i
                                 class="fas fa-envelope"></a></i></h5>
                 </div>
             </div>
             <div class="card text-center col-3 border-0" style="width: 12rem;">
                 <div class="card-body">
-                    <h5 class="card-title display-1"><a href="https://github.com/mayabuserde/"><i
+                    <h5 class="card-title display-1"><a class="text-muted" href="https://github.com/mayabuserde/"><i
                                 class="fab fa-github"></i></a></h5>
                 </div>
             </div>
             <div class="card text-center col-3 border-0" style="width: 12rem;">
                 <div class="card-body">
-                    <h5 class="card-title display-1"><a href="https://www.linkedin.com/in/mayabuserde"><i
-                                class="fab fa-linkedin"></i></a></h5>
+                    <h5 class="card-title display-1"><a class="text-muted"
+                            href="https://www.linkedin.com/in/mayabuserde"><i class="fab fa-linkedin"></i></a></h5>
                 </div>
             </div>
         </section>
